@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+}
+body {
+    background-color: rgb(255, 222, 166);
+}
+.nav ul{    
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 17px;
+    gap: 10px;
+    align-items: baseline;
+    position: relative;
+    bottom: 20px;
+}
+.nav li {
+    display: inline;
+}
+.nav h1 {
+    display: flex;
+    flex-direction: row;
+}
+.nav {
+    height: 50px;
+    background-color: orange;
+}
+.tab .card {
+    padding: 35px 50px;
+    margin: 20px;
+    display: inline-block;
+    border: 5px solid orange;
+    background-color: white;
+    display:flex;
+    align-content: flex-start;
+    flex-flow: column nowrap; 
+    justify-content: space-around;
+}
+.tab {
+    width: 1450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.button {
+    padding-top: 5px;
+    border: 3px solid orange;
+    text-align: center;
+    margin-top:15px;
+    background-color: orange;
+}
